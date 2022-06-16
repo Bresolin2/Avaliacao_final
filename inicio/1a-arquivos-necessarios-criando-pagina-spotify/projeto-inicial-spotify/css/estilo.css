@@ -2,3 +2,14 @@
     right: 5rem;
     width: 5rem;
 }
+
+.test {
+    text-align: center;
+    right: 5rem;
+    width: 5rem;
+    font-style: italic;
+	font-weight: bold;
+	font-size: 30px;
+	font-family: Bradley Hand, cursive 
+    
+}
