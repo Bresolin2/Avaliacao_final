@@ -1,6 +1,11 @@
+html, body, #home {
+    height: 100%;
+}
+
+
 body {
-background:linear-gradient(50deg, #1c8c43, #233587);
-            background-attachment: fixed;
+    background:linear-gradient(50deg, #1c8c43, #233587);
+    background-attachment: fixed;
 }
 
 nav.navbar-transparente {
