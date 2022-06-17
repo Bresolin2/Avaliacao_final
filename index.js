@@ -5,13 +5,14 @@ const audio = document.querySelector("audio");
 
 const data = {
   title:
-    "Post Malone - Rockstarft. 21 Savage",
-  artist: "Post Malone",
-  cover: "imagens/rockstar.jpg",
+    "Jovem Dionisio - ACORDA PEDRINHO",
+  artist: "Jovem Dionisio",
+  cover: "imagens/pedrinho.jpg",
   file: "sRockstar.mp3"
 };
 
 cover.style.background = `url('${data.cover}') no-repeat center center / cover`;
 title.innerText = data.title;
 artist.innerText = data.artist;
-audio.src = "Rockstar.mp3";
+audio.src = "Acorda Pedrinho.mp3";
+
