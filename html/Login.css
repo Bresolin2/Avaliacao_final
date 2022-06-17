@@ -15,7 +15,7 @@
     position: relative;
   }
   
-  .Card input[type=text], input[type=password] {
+  .Card input[type=text], input[type=senha] {
     height: 44px;
     font-size: 16px;
     width: 100%;
@@ -30,7 +30,7 @@
     -moz-box-sizing: border-box;
   }
   
-  .Card input[type=text]:hover, input[type=password]:hover {
+  .Card input[type=text]:hover, input[type=senha]:hover {
     border: 1px solid #b9b9b9;
     border-top: 1px solid #a0a0a0;
     -moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
@@ -60,7 +60,7 @@
     background-color: #0062ff;
   }
   
-  .login-card a {
+  .Card a {
     text-decoration: none;
     color: rgb(0, 0, 0);
     font-weight: 400;
@@ -70,12 +70,7 @@
     transition: opacity ease 0.5s;
   }
   
-  .login-card a:hover {
+  .Card a:hover {
     opacity: 1;
   }
   
-  .login-help {
-    width: 100%;
-    text-align: center;
-    font-size: 12px;
-  }
