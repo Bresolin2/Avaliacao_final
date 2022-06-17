@@ -10,3 +10,13 @@
 	font-size: 30px;
 	font-family: Bradley Hand, cursive 
 }
+
+nav.navbar-transparente {
+    background: rgba(226, 39, 39, 1);
+    padding: 15px 0;
+}
+
+.divisor{
+    width: 1px;
+    background: white;
+}
