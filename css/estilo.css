@@ -5,17 +5,27 @@ html, body, #home {
     height: 100%;
 }
 
+.capa {
+    text-align: center;
+}
+
 .t {
     font-family: Helvetica, Arial, sans-serif;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: #000000;
     color: #1ed760;
+    text-align: center;
 }
 .tt {
     font-family: Arial, Helvetica, sans-serif;
-    color: rgb(102, 98, 98);
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #616161;
+    color: rgb(0, 0, 0);
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #f4c5c5;
+}
+
+.text {
+    font-family: Helvetica, Arial, sans-serif;
+    color: white;
 }
 
 body {
