@@ -1,5 +1,5 @@
 body {
-background:linear-gradient(50deg, #1ed760, #7c26f8);
+background:linear-gradient(50deg, #1ed760, #292430);
             background-attachment: fixed;
 }
 
@@ -7,6 +7,7 @@ background:linear-gradient(50deg, #1ed760, #7c26f8);
     right: 5rem;
     width: 5rem;
 }
+
 
 .test {
     text-align: center;
