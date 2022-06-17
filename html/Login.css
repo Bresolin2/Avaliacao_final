@@ -75,17 +75,21 @@ textarea:focus, input:focus {
   background-color: #1c8c43;
 }
   
-  .login-submit {
-    border: 0px;
-    text-shadow: 0 1px #ffffff(0,0,0,0.3);
-    background:linear-gradient(50deg, #1c8c43, #233587);
-  }
+.login-submit {
+  border: 0px;
+  text-shadow: 0 1px #ffffff(0,0,0,0.3);
+  background:linear-gradient(50deg, #1c8c43, #233587);
+}
   
-  .Card span {
-    text-decoration: none;
-    font-weight: 400;
-    text-align: center;
-    display: inline-block;
-    color: #ffffff;
-  }
+.Card span {
+  text-decoration: none;
+  font-weight: 400;
+  text-align: center;
+  display: inline-block;
+  color: #ffffff;
+  font-size: 14px;
+  font-family: 'Arial', sans-serif;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
   
