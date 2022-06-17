@@ -1,11 +1,7 @@
 body {
-background: url(../imagens/capa.png),
-            url(../imagens/ruido.png),
-            linear-gradient(50deg, #ff4169, #7c26f8)
-
+background:linear-gradient(50deg, #1ed760, #7c26f8);
+            background-attachment: fixed;
 }
-
-
 
 .img-fluid {
     right: 5rem;
