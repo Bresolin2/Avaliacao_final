@@ -1,3 +1,8 @@
+body {
+background:linear-gradient(50deg, #1ed760, #7c26f8);
+            background-attachment: fixed;
+}
+
 .img-fluid {
     right: 5rem;
     width: 5rem;
@@ -9,4 +14,14 @@
 	font-weight: bold;
 	font-size: 30px;
 	font-family: Bradley Hand, cursive 
+}
+
+nav.navbar-transparente {
+    background: rgba(226, 39, 39, 1);
+    padding: 15px 0;
+}
+
+.divisor{
+    width: 1px;
+    background: white;
 }
