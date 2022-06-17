@@ -1,3 +1,8 @@
+body {
+    background:linear-gradient(50deg, #1c8c43, #233587);
+    background-attachment: fixed;
+}
+
 .Card {
     padding: 40px;
     width: 274px;
@@ -21,9 +26,9 @@
     width: 100%;
     margin-bottom: 10px;
     -webkit-appearance: none;
-    background: #fff;
-    border: 1px solid #000000;
-    border-top: 1px solid #000000;
+    background: rgb(0, 0, 0);
+    border: 1px solid #d40000;
+    border-top: 1px solid #ef0000;
     border-radius: 2px;
     padding: 0 8px;
     box-sizing: border-box;
@@ -49,15 +54,15 @@
   
   .login-submit {
     border: 0px;
-    color: #fff;
-    text-shadow: 0 1px rgba(0,0,0,0.1); 
-    background-color: #005ff9;
+    color: rgb(0, 0, 0);
+    text-shadow: 0 1px #292430(0,0,0,0.1); 
+    background-color: #1ed760;
   }
   
   .login-submit:hover {
     border: 0px;
-    text-shadow: 0 1px rgba(0,0,0,0.3);
-    background-color: #0062ff;
+    text-shadow: 0 1px #292430(0,0,0,0.3);
+    background-color: #1ed760;
   }
   
   .Card a {
