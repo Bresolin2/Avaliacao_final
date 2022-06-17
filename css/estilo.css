@@ -3,6 +3,11 @@ background:linear-gradient(50deg, #1ed760, #292430);
             background-attachment: fixed;
 }
 
+nav.navbar-transparente {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 5px 0;
+}
+
 .img-fluid {
     right: 5rem;
     width: 5rem;
@@ -17,10 +22,7 @@ background:linear-gradient(50deg, #1ed760, #292430);
 	font-family: Bradley Hand, cursive 
 }
 
-nav.navbar-transparente {
-    background: rgba(226, 39, 39, 1);
-    padding: 15px 0;
-}
+
 
 .divisor{
     width: 1px;
