@@ -3,8 +3,10 @@ html, body, #home {
 }
 
 
+
 body {
-    background:linear-gradient(50deg, #1c8c43, #233587);
+    background:url(../imagens/capa.png),
+    linear-gradient(50deg, #1c8c43, #233587);
     background-attachment: fixed;
 }
 
