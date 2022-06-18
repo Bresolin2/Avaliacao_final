@@ -18,13 +18,13 @@ h1 {
 
 }
 
-/* .t {
+.t {
     font-family: Helvetica, Arial, sans-serif;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: #000000;
     color: #1ed760;
     text-align: center;
-} */
+}
 
 .tt {
     font-family: Arial, Helvetica, sans-serif;
@@ -47,6 +47,7 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: Helvetica, Arial, sans-serif;
 }
   
 
@@ -59,10 +60,9 @@ h1 {
 }
 
 
-
 nav.navbar-transparente {
+    padding: 15px 0;
     background: rgba(0, 0, 0, 0.6);
-    padding: 5px 0;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -74,7 +74,7 @@ nav.navbar-transparente {
 }
 
 .navbar-light .navbar-toggler {
-    color: rgba(0, 0, 0, 0.5);
+    color: rgba(255, 255, 255, 0.5);
     border-color: white;
 }
 
