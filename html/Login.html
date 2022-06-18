@@ -8,10 +8,35 @@
         <title>Login</title>
     </head>
     <body>
+            <!-- Inicio do cabeçalho -->
+        <header>
+            <nav class="navbar navbar-expand-md navbar-light fixed-top navbar-transparente">
+              <a class="navbar-brand" href="#">
+                  <div class="container">
+                    <img src="imagens/spotify.png" class="img-fluid" alt="Logo" width="142"><br>
+                  </div>
+                  
+              </a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+                <i class="fas fa-bars text-white"></i>
+              </button>
+  
+              <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" href="html/Login.html">Login</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="html/cadastro.html">Cadastre-se</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+      </header>
+
         <div class="Card" >
-            
+            <h1>Login</h1>
             <form>
-                <h1>Login</h1>
                 <input type="text" name="user" placeholder="Usuário">
                 <input type="senha" name="senha" placeholder="Senha">
                 <input type="submit" name="logar" class="login login-submit" value="ENTRAR">
