@@ -7,8 +7,12 @@ html, body, #home {
 .capa {
     text-align: center;
     margin-top: 25%;
-}
+} 
 
+
+
+
+/* -- botão -- */
 .btn-custom {
     color: white;
     border-radius: 500px;
@@ -16,12 +20,30 @@ html, body, #home {
     -moz-border-radius: 500px;
     text-transform: uppercase;
     transition: background 0.4s, color 0.4s;
-    padding: 10px 15px;
+    padding: 10px 20px;
 }
 
 .btn-green {
     background: #1ed760;
 }
+
+.btn-green:hover {
+    background: #1c8c43;
+    color: white;
+}
+
+
+.btn-white {
+    border: 2px solid white;
+}
+
+.btn-white:hover {
+    background-color: white;
+    color: black;
+} /* -- botão -- */
+
+
+
 
 h1 {
     font-weight: 900;
