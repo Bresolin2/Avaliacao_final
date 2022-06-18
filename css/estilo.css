@@ -10,13 +10,22 @@ html, body, #home {
     margin-top: 25%;
 }
 
-.t {
+h1 {
+    font-weight: 900;
+    letter-spacing: -0.05em;
+    margin-bottom: 50px;
+    color: white;
+
+}
+
+/* .t {
     font-family: Helvetica, Arial, sans-serif;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: #000000;
     color: #1ed760;
     text-align: center;
-}
+} */
+
 .tt {
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(0, 0, 0);
@@ -29,7 +38,7 @@ html, body, #home {
     color: white;
 }
 
-body {
+.bd {
     background:url(../imagens/capa.png),
     linear-gradient(50deg, #1c8c43, #233587);
     background-attachment: fixed;
