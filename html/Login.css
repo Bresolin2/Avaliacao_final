@@ -17,7 +17,7 @@ body {
   width: 270px;
   background-color:#000000;
   margin: 0 auto 10rem;
-  border-radius: 40px;
+  border-radius: 10px;
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
   overflow: hidden;
   height: 300px;
@@ -27,7 +27,7 @@ body {
   transform: translate(-50%, -50%);
 }
 
-.Card input[type=submit] {
+.Card input [type=submit] {
   width: 100%;
   display: block;
   margin-bottom: 10px;
@@ -53,32 +53,37 @@ textarea:focus, input:focus {
 
 .Card input[type=text]:hover, input[type=senha]:hover {
   border: 1px solid #000000;
-  border-bottom: 1px solid #1c8c43;
+  border-bottom: 1px solid #ffffff;
   box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
 }
   
-.login {
-  text-align: center;
-  font-size: 14px;
-  font-family: 'Arial', sans-serif;
-  font-weight: 700;
-  height: 36px;
-  padding: 0 8px;
-  line-height: 36px;
+.Card input[type=text]:focus, input[type=senha]:focus {
+  border: 1px solid #000000;
+  border-bottom: 1px solid #ffffff;
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
 }
 
-  
-.login-submit {
-  border-radius: 0px;
+.login {
+  width: 100%;
+  height: 44px;
   color: rgb(0, 0, 0);
-  text-shadow: 0 1px #233587(0,0,0,0.1); 
-  background-color: #1c8c43;
+  border-radius: 0px;
+  padding: 10px 25px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
 }
-  
+
 .login-submit {
-  border: 0px;
-  text-shadow: 0 1px #ffffff(0,0,0,0.3);
-  background:linear-gradient(50deg, #1c8c43, #233587);
+  background: rgb(28,140,67);
+}
+.login-submit:hover {
+  background: rgb(66, 202, 113);
+  border-radius: 1px;
 }
   
 .Card span {
@@ -89,7 +94,7 @@ textarea:focus, input:focus {
   color: #ffffff;
   font-size: 14px;
   font-family: 'Arial', sans-serif;
-  margin-top: 8px;
+  margin-top: 12px;
   margin-bottom: 5px;
 }
   
