@@ -76,10 +76,11 @@ textarea:focus, input:focus {
   transition: all 0.3s ease;
   position: relative;
   display: inline-block;
+  font-weight: bolder;
 }
 
 .login-submit {
-  background: rgb(28,140,67);
+  background: rgb(39, 151, 95);
 }
 .login-submit:hover {
   background: rgb(66, 202, 113);
