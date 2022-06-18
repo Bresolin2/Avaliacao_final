@@ -15,7 +15,7 @@
         <link rel="stylesheet" type="text/css" href="/css/estilo.css">
         <link rel="stylesheet" type="text/css" href="/html/Login.css">
 
-      <title>Music Center - Cadastro</title>
+      <title>Cadastro</title>
   </head>
   <body>
 
@@ -47,48 +47,36 @@
     <!-- Fim do cabeçalho -->
 
 
-    <div class="cadastroInfo">
-      <hr>
-      <table>
-          <form>
-            <div>
-              <label>Nome:</label> <input type="text" size="40" placeholder="Informe o nome"> 
-            </div>
-              
-              <label>Email:</label> <br> <input type="email" size="30" placeholder="Informe o e-mail"> <br>
-              <label>Data de Nascimento:</label> <input type="date" size="20"> <br>
-              <label>Senha</label> <br> <input type="password" size="20" placeholder="Digite uma senha"> <br>
-              <label>Confirme a Senha</label> <br> <input type="password" size="20" placeholder="Confirme a senha"> <br>
-              <label>Telefone:</label> <br> <input type="tel" size="20" placeholder="Informe o telefone"> <br>
-              <label>UF:</label> <br> 
-              <select name="UF" id="">
-                  <option value="RS">Rio Grande do Sul</option>
-                  <option value="SC">Santa Catarina</option>
-                  <option value="PR">Paraná</option>
-              </select> <br>
-               
-  
-              <br>
-              <br>
-  
-  
-              <label>Observação:</label> <br> <textarea rows="5" cols="50"> </textarea>
-              <br>            
-             <input type="submit">
-  
-  
-  
-          </form>
-  
-  
-      </table>
-  
-
-
+  <div class="cadastroInfo">
+    <i class="fas fa-user-circle"></i>
+    <strong>Criar conta</strong>
+    <form>
+      <fieldset>
+        <div class="form">
+          <div class="form-row">
+            <i class="fas fa-user"></i>
+            <label for="input">&nbsp Nome:</label> 
+            <input type="text" size="40" placeholder="Informe o nome"> 
+          </div>
+          <div class="form-row">
+            <i class="fas fa-envelope"></i>
+            <label>&nbsp Email:</label> <input type="email" size="40" placeholder="Informe o e-mail">
+          </div>
+          <div class="form-row">
+            <i class="fas fa-lock"></i> 
+            <label>&nbsp Senha</label> <input type="password" size="20" placeholder="Digite uma senha"> 
+          </div>
+          <div class="form-row">
+            <label>Confirme a Senha</label> <input type="password" size="20" placeholder="Confirme a senha">               
+          </div>
+          <div class="form-row button-login">
+            <button class="btn btn-login">Criar <i class="fas fa-arrow-right"></i></button>
+          </div>
+        </div>            
+      </fieldset>    
+    </form>
     </div>
-
     
-
   </body>
     
 
