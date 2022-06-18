@@ -1,5 +1,4 @@
-@import  "https://cdnjs.cloudflare.com/ajax/libs/material-design-icons/3.0.1/icont/material-icons.min.css";
-@import  "https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css";
+/* @import  "https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"; */
 
 html, body, #home {
     height: 100%;
@@ -61,7 +60,7 @@ h1 {
 
 
 nav.navbar-transparente {
-    padding: 15px 0;
+    padding: 0px 0;
     background: rgba(0, 0, 0, 0.6);
 }
 
