@@ -226,7 +226,7 @@ h3 {
     border-radius: 15px;
     box-shadow: 0px 2px 2px rgba(209, 18, 18, 0.3);
     overflow: hidden;
-    height: 440px;
+    height: 400px;
     position: absolute;
     top: 50%;
     left: 50%; 
@@ -239,17 +239,18 @@ h3 {
 	font-weight: bolder;
 }
  
-.form-row-criar {
-	background: #73a4dc;
-	border-radius: 2px;
-	padding: 110px 15px;
+.criar {
+	background: rgb(18, 198, 204);
+	border-radius: 5px;
+	padding: 5px 10px;
 	border: auto;
-	color: #fff;
+	color: rgb(0, 0, 0);
 	font-weight: bold;
 	cursor: pointer;
-
-
 } 
+.criar:hover {
+	background: #1d8896;
+  }
 
 input {
    	color: #1b1717;
