@@ -51,14 +51,14 @@
 
   <div class="cadastroInfo">
     <i class="fas fa-user-circle fa-2x"></i> 
-    <strong>CRIAR UM NOVA CONTA</strong> <br><br>
+    <strong>&nbsp CRIAR UMA CONTA</strong> <br><br>
     <form>
       <fieldset>
         <div class="form">
           <div class="form-row">
             <i class="fas fa-user"></i> 
             <label for="input">&nbsp Nome:</label> 
-            <input type="text" size="40" placeholder="Informe o nome"> 
+            <input type="text" id="nome" size="40" placeholder="Informe o nome"> 
           </div>
           <div class="form-row">
             <i class="fas fa-envelope"></i>
@@ -72,8 +72,8 @@
           <div class="form-row">
             <label>Confirme a Senha</label> <input type="password" size="20" placeholder="Confirme a senha">               
           </div>
-          <div class="form-row button-login">
-            <button class="btn btn-login">Criar <i class="fas fa-arrow-right"></i></button>
+          <div class="form-row-criar">
+            <button class="criar" onclick="Criar()" >Criar <i class="fas fa-arrow-right"></i></button>
           </div>
         </div>            
       </fieldset>    
