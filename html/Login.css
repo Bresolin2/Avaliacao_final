@@ -44,7 +44,7 @@ textarea:focus, input:focus {
   width: 100%;
   margin-bottom: 10px;
   background: rgb(255, 255, 255);
-  border: 2px solid #233587;
+  border: 2px solid #1c8c43;
   border-top: 2px solid #1c8c43;
   border-radius: 0px;
   padding: 0 8px;
@@ -76,14 +76,15 @@ textarea:focus, input:focus {
   transition: all 0.3s ease;
   position: relative;
   display: inline-block;
+  font-weight: bolder;
 }
 
 .login-submit {
-  background: rgb(28,140,67);
+  background: rgb(39, 151, 95);
 }
 .login-submit:hover {
   background: rgb(66, 202, 113);
-  border-radius: 1px;
+  border-radius: 50px;
 }
   
 .Card span {
