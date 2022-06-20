@@ -55,20 +55,29 @@ nav.navbar-transparente {
     padding: 10px 20px;
 }
 
-.btn-roxo {
-	background: #1ed760;
-}
-
-.btn-roxo:hover {
-	background: #1c8c43;
-	color: white;
-}
-
-.btn-branco {
+.btn-verde {
 	border: 2px solid white;
 }
 
+.btn-verde:hover {
+	background-color: white;
+	color: black;
+}
+
+.btn-branco {
+	background: #1ed760;
+}
+
 .btn-branco:hover {
+	background-color: white;
+	color: black;
+}
+
+.btn-roxo {
+	background: #5f12d2;
+}
+
+.btn-roxo:hover {
 	background-color: white;
 	color: black;
 }
@@ -197,6 +206,9 @@ h3 {
 	h1 {
 		font-size: 4em;
 	}
+	.btn-custom {
+		margin: 10px 15px;
+	}
 }
 
 /* Large devices (desktops, 992px and up)*/
@@ -204,12 +216,18 @@ h3 {
 	h1 {
 		font-size: 5em;
 	}
+	.btn-custom {
+		margin: 10px 15px;
+	}
 }
 
 /* Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
 	h1 {
 		font-size: 6em;
+	}
+	.btn-custom {
+		margin: 10px 15px;
 	}
 }
 
