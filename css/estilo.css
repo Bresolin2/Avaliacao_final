@@ -231,32 +231,59 @@ h3 {
 	}
 }
 
-/* Cadastro  */
+/* Cadastro  
+----------------------------------------*/
 
 .cadastroInfo {
+	box-sizing: border-box;
+	padding-top: 5vh;
+	width: 500px;
+	background:#000000;
 	color: rgb(18, 198, 204);
     font-size: 15px;
-    text-align: center;
-    padding-left: 50px;
-	padding-top: 25px;
-	width: 500px;
-    background:#000000;
-    border-radius: 15px;
-    box-shadow: 0px 2px 2px rgba(209, 18, 18, 0.3);
+    margin-left: auto;
+	margin-right: auto;
+	text-align: center; 
+    padding-left: 25px;   
+    border-radius: 15px; 
     overflow: hidden;
-    height: 400px;
+    height: 350px;
     position: absolute;
     top: 50%;
     left: 50%; 
-    transform: translate(-50%, -50%); 		
+    transform: translate(-50%, -50%); 	
+		
+}
+.form-title {
+	font-size: 12px;
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+	font-weight: bold;
+	text-align: center;
 }
 
-.form-row {
-    color: #ffffff;
-	margin-top: 15px;
-	font-weight: bolder;
+form {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
 }
- 
+
+.form-full {
+	flex: 1 1 100%;
+	position: relative;
+	font-weight: bold;	
+}
+.form-mid {
+	flex: 1 1 45%;
+	position: relative;
+	font-weight: bold;
+
+}
+	
+}
+.spacing {
+	margin-right: 2.5%;
+}
+
 .criar {
 	background: rgb(18, 198, 204);
 	border-radius: 5px;
@@ -265,10 +292,11 @@ h3 {
 	color: rgb(0, 0, 0);
 	font-weight: bold;
 	cursor: pointer;
-} 
+}
+
 .criar:hover {
 	background: #1d8896;
-  }
+}
 
 input {
    	color: #1b1717;
@@ -279,16 +307,22 @@ input {
     box-sizing:border-box; 
 }
 
+input:focus {
+	border-color: #0400ff;
+}
+
 label {
     color: rgb(18, 198, 204);
     font-size: 15px;
 }
 
-.lnr-eye {
-    color: rgb(0, 0, 0);
-	position: absolute;
-    top: 228px;
-    left: 270px;
-    cursor: pointer;
+#agreement {
+	margin-right: 5px;
 }
 
+#agreement, #agreement-label {
+	display: inline-block;
+	width: auto;
+}
+/* Fim do cadastro 
+---------------------------------------- */

@@ -1,25 +1,15 @@
 function Criar() {
 
     var nome = document.getElementById("nome");
+    var email = document.getElementById("email");
+    var password = document.getElementById("password");
 
-    if (nome.value != "") {
-        alert('Prezado(a) ' + nome.value + ', sua conta foi criada com sucesso.');
+    if (nome.value && email.value && password.value = "") {
+           alert('Por favor preencha todos os campos!')     
     } 
         else {
-            alert('Nome não informado!')
+            alert('Prezado(a) ' + nome.value + ', sua conta foi criada com sucesso.');   
 
         }
-    
-
+       
 }
-
-
-let btn = document.querySelector('.lnr-eye');
-btn.addEventListener('click', function() {
-    let input = document.querySelector('#password');
-    if(input.getAttribute('type') == 'password') {
-        input.setAttribute('type', 'text');
-    } else {
-        input.setAttribute('type', 'password');
-    }
-});
