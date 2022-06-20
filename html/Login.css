@@ -5,6 +5,7 @@ nav.navbar-transparente {
 
 .navbar-light .navbar-nav .nav-link {
 	color: white;
+  box-sizing: border-box;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
