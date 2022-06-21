@@ -12,7 +12,7 @@ app.post("/login", function(req, res) {
     var nome = req.body.name;
     var password = req.body.password;
     if (nome == "admin" && password == "123") {
-        res.send("Bem vindo " + nome);
+        res.send("Bem Vindo " + nome);
     } else {
         res.send("Usuário ou senha inválidos");
     }
