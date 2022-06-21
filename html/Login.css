@@ -95,7 +95,7 @@ textarea:focus, input:focus {
   width: 100%;
   height: 44px;
   color: rgb(0, 0, 0);
-  border-radius: 0px;
+  border-radius: 3px;
   padding: 10px 25px;
   font-family: 'Lato', sans-serif;
   font-weight: 500;
@@ -126,5 +126,13 @@ textarea:focus, input:focus {
   font-family: 'Arial', sans-serif;
   margin-top: 30px;
   margin-bottom: 5px;
+}
+
+h2 {
+	font-size: 3em;
+	font-weight: 700;
+	letter-spacing: -0.04em;
+  text-align: center;
+  color: rgb(18, 198, 204);
 }
   
