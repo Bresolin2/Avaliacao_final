@@ -272,13 +272,12 @@ form {
 	position: relative;
 	font-weight: bold;	
 }
+
 .form-mid {
 	flex: 1 1 45%;
 	position: relative;
 	font-weight: bold;
-
 }
-	
 .spacing {
 	margin-right: 2.5%;
 }
