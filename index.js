@@ -1,16 +1,16 @@
-function logar(){
-    var login = document.getElementById("nome");
-    var password = document.getElementById("password");
+function logar() {
+    var usuario = document.getElementById("usuario");
+    var passlogin = document.getElementById("passlogin");
 
-        if (login == "admin" && password == "123"){
-            localStorage.setItem(acesso, true);
-
-            windows.location.href = "home.html";
+        if (usuario.value == "admin" && passlogin.value == "123") {
+            //localStorage.setItem(acesso, true);
+            window.location.pathname = "home.html";
+            
         }
         else {
             alert("Usuário ou senha Inválidos!");
         }
-    };
+    }
 
 
 
