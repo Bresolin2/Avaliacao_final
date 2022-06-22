@@ -1,12 +1,11 @@
-$(document).ready(function(){
-    $("#button").click(function(){
-        var nome = $("#nome").val();
-        var password = $("#password").val();
-        const userValido = 'admin';
-        const passwordValido = '123';
+function logar(){
+    var nome = document.getElementById("nome");
+    var password = document.getElementById("password");
 
-        if (nome = userValido && password == passwordValido){
-            window.open("../home.html", "_blank");
+        if (nome == "admin" && password == "123"){
+            localStorage.setItem(acesso, true);
+
+            windows.location.href = "home.html";
         }
         else {
             alert("Usuário ou senha Inválidos!");
