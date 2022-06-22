@@ -1,11 +1,11 @@
 function logar(){
-    var login = document.getElementById("nome");
-    var senha = document.getElementById("password");
+    var nome = document.getElementById("nome");
+    var password = document.getElementById("password");
 
-        if (login = "admin" && senha == "123"){
+        if (nome == "admin" && password == "123"){
             localStorage.setItem(acesso, true);
 
-            window.location.href = "home.html";
+            windows.location.href = "home.html";
         }
         else {
             alert("Usuário ou senha Inválidos!");
