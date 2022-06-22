@@ -10,8 +10,8 @@ function logar(){
         else {
             alert("Usuário ou senha Inválidos!");
         }
-    });
-});
+    };
+
 
 
 
