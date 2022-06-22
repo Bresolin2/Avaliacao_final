@@ -1,5 +1,6 @@
-function Criar() {
+// function Criar() {
 
+<<<<<<< Updated upstream
      var nome = document.getElementById("nome");
      var email = document.getElementById("email");
      var senha = document.getElementById("password");      
@@ -10,8 +11,20 @@ function Criar() {
          else {           
              alert('Por favor preencha todos os campos!')     
          }
+=======
+//      var login = document.getElementById("nome");
+//      var email = document.getElementById("email");
+//      var senha = document.getElementById("password");
        
-}
+//      if (login.value, email.value, senha.value != "") {
+//          alert('Prezado(a) ' + login.value + ', sua conta foi criada com sucesso.');   
+//      } 
+//          else {           
+//              alert('Por favor preencha todos os campos!')     
+//          }
+>>>>>>> Stashed changes
+       
+// }
 
 
 const express = require('express');
@@ -23,7 +36,7 @@ var path = require('path');
 const app = express();
 
 var login = "admin";
-var senha = "123";
+var password = "123";
 
 app.engine('html', require('ejs').renderFile);
 app.use(bodyParser.urlencoded({extended:true}));
@@ -33,27 +46,25 @@ app.set('views', path.join(__dirname, '/views'));
 
 app.post('/', (req, res)=> {
     
-    if(req.body.password == senha && req.body.login == login) {
+    if(req.body.password == password && req.body.login == login) {
         //Logado com sucesso
         req.session.login = login;
+        res.redirect('/');
     }
-
-
-
 
     res.render('../html/Login.html');
     res.render('../html/Login.css');
 })
 
 app.get('/', (req, res)=> {
-    if(req.session.login){
-        res.render('../home.html')
-        res.render('../css/estilo.css')
+    if(req.session.login) {
+        res.render('../home.html');
+        res.render('../css/estilo.css');
     }
     else{
 
-    res.render('../html/Login.html');
-    res.render('../html/Login.css');
+        res.render('../html/Login.html');
+        res.render('../html/Login.css');
     }
 })
 
