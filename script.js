@@ -1,6 +1,5 @@
 // function Criar() {
 
-<<<<<<< Updated upstream
      var nome = document.getElementById("nome");
      var email = document.getElementById("email");
      var senha = document.getElementById("password");      
@@ -11,18 +10,6 @@
          else {           
              alert('Por favor preencha todos os campos!')     
          }
-=======
-//      var login = document.getElementById("nome");
-//      var email = document.getElementById("email");
-//      var senha = document.getElementById("password");
-       
-//      if (login.value, email.value, senha.value != "") {
-//          alert('Prezado(a) ' + login.value + ', sua conta foi criada com sucesso.');   
-//      } 
-//          else {           
-//              alert('Por favor preencha todos os campos!')     
-//          }
->>>>>>> Stashed changes
        
 // }
 
