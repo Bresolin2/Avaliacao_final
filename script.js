@@ -33,10 +33,12 @@ app.set('views', path.join(__dirname, '/views'));
 app.post('/', (req, res)=> {
     console.log(req.body.login);
     res.render('../html/Login.html')
+    res.render('../html/Login.css')
 })
 
 app.get('/', (req, res)=> {
     res.render('../html/Login.html')
+    res.render('../html/Login.css')
 })
 
 
