@@ -1,17 +1,17 @@
-// function Criar() {
+function Criar() {
 
-//     var nome = document.getElementById("nome");
+     var nome = document.getElementById("nome");
+     var email = document.getElementById("email");
+     var senha = document.getElementById("password");
        
-
-//     if (nome.value != "") {
-//         alert('Prezado(a) ' + nome.value + ', sua conta foi criada com sucesso.');   
-//     } 
-//         else {
-            
-//             alert('Por favor preencha todos os campos!')     
-//         }
+     if (nome.value, email.value, senha.value != "") {
+         alert('Prezado(a) ' + nome.value + ', sua conta foi criada com sucesso.');   
+     } 
+         else {           
+             alert('Por favor preencha todos os campos!')     
+         }
        
-// }
+}
 
 
 const express = require('express');
