@@ -14,7 +14,9 @@
           <link rel="stylesheet" type="text/css" href="../css/estilo.css">
           <link rel="stylesheet" type="text/css" href="../html/login.css">
 
-          <script type="text/javascript" src="../script.js"></script>
+          <!-- Script -->
+          <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+          <script type="text/javascript" src="../index.js"></script>
 
           <link rel="stylesheet" href="login.css">
         <title>Music Center - Login</title>
@@ -53,10 +55,11 @@
 
         <div class="Card">
             <h2>Login</h2>
+
               <form>
-                <input type="text" name="nome" placeholder="Usuário:">
-                <input type="password" name="password" placeholder="Senha:">
-                <input type="submit" name="logar" class="login login-submit" value="ENTRAR">
+                <input type="text" name="nome" id="nome" placeholder="Usuário:">
+                <input type="password" name="password" id="password" placeholder="Senha:">
+                <input type="submit" name="logar" id="button" class="login login-submit" value="ENTRAR">
               </form>
               <br>
               
