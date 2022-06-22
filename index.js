@@ -1,8 +1,8 @@
 function logar(){
     var login = document.getElementById("nome");
-    var senha = document.getElementById("password");
+    var password = document.getElementById("password");
 
-        if (login == "admin" && senha == "123"){
+        if (login == "admin" && password == "123"){
             localStorage.setItem(acesso, true);
 
             windows.location.href = "home.html";
